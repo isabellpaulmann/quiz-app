@@ -1,0 +1,74 @@
+.questcard {
+  margin: 30px 10px;
+  display: flex;
+  background-color: #3a3b3c;
+  border-radius: 30px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-wrap: row;
+  padding: 30px;
+  position: relative;
+  z-index: -1;
+}
+.questcard--question {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.questcard__button {
+  background-color: #1e4620;
+  font-size: 1.2rem;
+  border: white solid 2px;
+  border-radius: 10px;
+  font-family: "Koulen", cursive;
+  letter-spacing: 0.1rem;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}
+.questcard--answer {
+  text-align: center;
+  padding-top: 1rem;
+}
+.questcard__bookmark {
+  position: absolute;
+  width: 35px;
+  filter: invert(70%);
+  top: -0.8rem;
+  right: 1.6rem;
+}
+
+input {
+  line-height: 1.5rem;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.formular {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: "Koulen", cursive;
+  letter-spacing: 0.1rem;
+}
+.fieldset__button {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2rem;
+  background-color: #1e4620;
+  font-size: 1.2rem;
+  border: white solid 2px;
+  border-radius: 10px;
+  font-family: "Koulen", cursive;
+  letter-spacing: 0.1rem;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.profilepicture {
+  width: 100px;
+  border-radius: 1000px;
+  margin: 2rem;
+}
+.profile--name {
+  font-family: "Koulen", cursive;
+  font-size: 1.2em;
+  letter-spacing: 0.1rem;
+}
+
+.aboutform {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 0.9rem;
+  gap: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.aboutform--tags {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.aboutform--tags--list {
+  background-color: white;
+  color: black;
+  padding: 5px 16px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+}
