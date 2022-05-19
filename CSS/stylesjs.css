@@ -1,0 +1,8 @@
+.questcard--colorchanges {
+  filter: invert(100%);
+  border: 2px solid white;
+}
+
+.test {
+  color: red;
+}

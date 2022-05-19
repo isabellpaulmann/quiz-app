@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="global.css" rel="stylesheet" />
-    <title>Document</title>
+    <link href="/CSS/global.css" rel="stylesheet" />
+    <title>⭐ HOME</title>
   </head>
   <body>
     <header>Quiz-App</header>
@@ -18,7 +18,25 @@
       </ul>
     </nav>
     <section class="questcard">
-      <img class="questcard__bookmark" src="bookmark.png" alt="add bookmark" />
+      <img
+        class="questcard__bookmark"
+        src="/bookmark.png"
+        alt="add bookmark"
+        data-js="bookmark"
+      />
+      <section class="questcard--text">
+        <p class="questcard--question">Wie lautet die Frage?</p>
+        <button class="questcard__button" data-js="clickAnswer">
+          Antwort anzeigen
+        </button>
+        <p class="questcard--answer" data-js="answer">
+          Hier steht die Antwort die auch mal länger werden kann wenn es sein
+          muss
+        </p>
+      </section>
+    </section>
+    <section class="questcard">
+      <img class="questcard__bookmark" src="/bookmark.png" alt="add bookmark" />
       <section class="questcard--text">
         <p class="questcard--question">
           Hier ist die Frage die auch länger werden kann unter Umständen.
@@ -31,7 +49,7 @@
       </section>
     </section>
     <section class="questcard">
-      <img class="questcard__bookmark" src="bookmark.png" alt="add bookmark" />
+      <img class="questcard__bookmark" src="/bookmark.png" alt="add bookmark" />
       <section class="questcard--text">
         <p class="questcard--question">
           Hier ist die Frage die auch länger werden kann unter Umständen.
@@ -44,7 +62,7 @@
       </section>
     </section>
     <section class="questcard">
-      <img class="questcard__bookmark" src="bookmark.png" alt="add bookmark" />
+      <img class="questcard__bookmark" src="/bookmark.png" alt="add bookmark" />
       <section class="questcard--text">
         <p class="questcard--question">
           Hier ist die Frage die auch länger werden kann unter Umständen.
@@ -56,18 +74,6 @@
         </p>
       </section>
     </section>
-    <section class="questcard">
-      <img class="questcard__bookmark" src="bookmark.png" alt="add bookmark" />
-      <section class="questcard--text">
-        <p class="questcard--question">
-          Hier ist die Frage die auch länger werden kann unter Umständen.
-        </p>
-        <p class="questcard__button">Antwort anzeigen</p>
-        <p class="questcard--answer">
-          Hier steht die Antwort die auch mal länger werden kann wenn es sein
-          muss
-        </p>
-      </section>
-    </section>
+    <script src="/events.js" defer></script>
   </body>
 </html>
