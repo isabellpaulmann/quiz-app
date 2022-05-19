@@ -9,8 +9,9 @@
   border-radius: 1000px;
   margin: 2rem;
 }
+
 .profile--name {
-  font-family: "Koulen", cursive;
+  font-family: 'Koulen', cursive;
   font-size: 1.2em;
   letter-spacing: 0.1rem;
 }
