@@ -1,7 +1,8 @@
-@import "forms.css";
-@import "styles.css";
-@import "nav.css";
+@import "/CSS/forms.css";
+@import "/CSS/styles.css";
+@import "/CSS/nav.css";
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Koulen&display=swap");
+@import "/CSS/stylesjs.css";
 
 * {
   box-sizing: border-box;
