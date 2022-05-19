@@ -1,14 +1,16 @@
 nav {
   position: fixed;
   bottom: 0;
-  font-family: "Koulen", cursive;
+  font-family: 'Koulen', cursive;
   font-size: 1.2em;
   letter-spacing: 0.1rem;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   color: #1e4620;
 }

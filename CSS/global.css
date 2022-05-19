@@ -1,8 +1,8 @@
-@import "/CSS/forms.css";
-@import "/CSS/styles.css";
-@import "/CSS/nav.css";
-@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Koulen&display=swap");
-@import "/CSS/stylesjs.css";
+@import '/CSS/forms.css';
+@import '/CSS/styles.css';
+@import '/CSS/nav.css';
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Koulen&display=swap');
+@import '/CSS/stylesjs.css';
 
 * {
   box-sizing: border-box;
@@ -13,7 +13,7 @@
 body {
   background-color: #18191a;
   color: white;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   line-height: 1.5;
   padding-bottom: 80px;
 }
@@ -24,6 +24,6 @@ header {
   display: flex;
   justify-content: center;
   font-size: 3em;
-  font-family: "Koulen", cursive;
+  font-family: 'Koulen', cursive;
   letter-spacing: 0.1rem;
 }

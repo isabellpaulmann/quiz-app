@@ -1,17 +1,17 @@
 let activateButton = document.querySelector('[data-js="clickAnswer"]');
 let answer = document.querySelector('[data-js="answer"]');
 
-answer.addEventListener("click", showAnswer);
+activateButton.addEventListener('click', showAnswer);
 
 function showAnswer() {
-  answer.classList.add("test");
+  answer.classList.toggle('');
 }
 
 const bookmark = document.querySelector('[data-js="bookmark"]');
-bookmark.addEventListener("click", onBookmarkClick);
+bookmark.addEventListener('click', onBookmarkClick);
 
 function onBookmarkClick() {
-  bookmark.classList.toggle("questcard--colorchanges");
+  bookmark.classList.toggle('questcard--colorchanges');
 }
 
 //alert("Willkommen in der Quizapp!");
