@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/CSS/global.css" rel="stylesheet" />
+    <title>⭐ HOME</title>
+  </head>
+  <body>
+    <main class="pageHome" data-js="home">
+      <header>Quiz-App</header>
+      <section class="questcard">
+        <img
+          class="questcard__bookmark"
+          src="/bookmark.png"
+          alt="add bookmark"
+          data-js="bookmark"
+        />
+        <section class="questcard--text">
+          <p class="questcard--question">
+            Wann wurde in Deutschland der Euro eingeführt?
+          </p>
+          <section class="questcard__button">
+            <button class="showAnswerButton" data-js="clickAnswer">
+              Antwort anzeigen
+            </button>
+            <button class="showQuestionButton" data-js="clickAnswer2">
+              Antwort verbergen
+            </button>
+          </section>
+          <p class="questcard--answer" data-js="answer">
+            Als offizielle Währung wurde das Euro-Bargeld am 1. Januar 2002 in
+            Umlauf gebracht.
+          </p>
+        </section>
+      </section>
+      <section class="questcard">
+        <img
+          class="questcard__bookmark"
+          src="/bookmark.png"
+          alt="add bookmark"
+          data-js="bookmark"
+        />
+        <section class="questcard--text">
+          <p class="questcard--question">
+            Wieviele Atemzüge nimmt der menschliche Körper täglich?
+          </p>
+          <section class="questcard__button">
+            <button class="showAnswerButton" data-js="clickAnswer3">
+              Antwort anzeigen
+            </button>
+            <button class="showQuestionButton" data-js="clickAnswer4">
+              Antwort verbergen
+            </button>
+          </section>
+          <p class="questcard--answer" data-js="answer2">
+            Ein Erwachsener atmet durchschnittlich etwa 10 - 15 Mal pro Minute.
+            Pro Tag sind es ungefähr 23.000 Atemzüge.
+          </p>
+        </section>
+      </section>
+    </main>
+    <main class="displayNone" data-js="book"><header>Bookmarks</header></main>
+    <main class="displayNone" data-js="create">
+      <header>CREATE</header>
+      <fieldset class="formular">
+        <legend>Add your question!</legend>
+        <input type="text" placeholder="Add your question here" />
+      </fieldset>
+      <fieldset class="formular">
+        <legend>Add your answer!</legend>
+        <input type="text" placeholder="Add your answer here" />
+      </fieldset>
+      <fieldset class="formular">
+        <legend>Add tags (divided by comma)!</legend>
+        <input type="text" placeholder="Add your tags here" />
+      </fieldset>
+      <p class="fieldset__button" data-js="submit">SUBMIT</p>
+    </main>
+    <main class="displayNone" data-js="profile">
+      <header>Profile</header>
+      <section class="profile">
+        <img class="profilepicture" src="/profil.jpg" alt="profile picture" />
+        <p class="profile--name">Vorname Nachname</p>
+      </section>
+      <section class="aboutform">
+        <p>
+          Text about myself text about myself text about myself text about
+          myself text about myself text about myself text about myself text
+          about myself text about myself
+        </p>
+        <p>My Skills</p>
+        <ul class="aboutform--tags" role="list">
+          <li class="aboutform--tags--list">Tag1</li>
+          <li class="aboutform--tags--list">Tag2</li>
+          <li class="aboutform--tags--list">Tag3</li>
+          <li class="aboutform--tags--list">Tag4</li>
+          <li class="aboutform--tags--list">Tag5</li>
+        </ul>
+      </section>
+      <p class="fieldset__button">LOGOUT</p>
+    </main>
+    <footer>
+      <nav>
+        <button class="navigation__button" data-js="buttonHome">HOME</button>
+        <button class="navigation__button" data-js="buttonBook">
+          BOOKMARKS
+        </button>
+        <button class="navigation__button" data-js="buttonCreate">
+          CREATE
+        </button>
+        <button class="navigation__button" data-js="buttonProfile">
+          PROFILE
+        </button>
+      </nav>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>

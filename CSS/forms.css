@@ -3,12 +3,9 @@
   display: flex;
   background-color: #3a3b3c;
   border-radius: 30px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-wrap: row;
   padding: 30px;
   position: relative;
+  justify-content: center;
 }
 
 .questcard--question {
@@ -17,7 +14,22 @@
   padding-bottom: 1rem;
 }
 
-.questcard__button {
+.showQuestionButton {
+  display: none;
+  background-color: #01386a;
+  font-size: 1.2rem;
+  border: white solid 2px;
+  border-radius: 10px;
+  font-family: 'Koulen', cursive;
+  letter-spacing: 0.1rem;
+  padding: 10px 20px;
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+.showAnswerButton {
+  display: flex;
   background-color: #1e4620;
   font-size: 1.2rem;
   border: white solid 2px;
@@ -26,12 +38,19 @@
   letter-spacing: 0.1rem;
   padding: 10px 20px;
   color: white;
-  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.questcard__button {
+  display: flex;
+  justify-content: center;
 }
 
 .questcard--answer {
-  text-align: center;
+  display: none;
   padding-top: 1rem;
+  text-align: center;
 }
 
 .questcard__bookmark {
