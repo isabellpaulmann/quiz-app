@@ -1,28 +1,24 @@
 nav {
-  position: fixed;
-  bottom: 0;
-  font-family: 'Koulen', cursive;
-  font-size: 1.2em;
-  letter-spacing: 0.1rem;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #1e4620;
-}
-
-.navigation {
-  list-style-type: none;
-  width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px;
   justify-content: space-between;
   background-color: black;
+  width: 100vw;
+}
+
+.navigation__button {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-family: 'Koulen', cursive;
+  font-size: 1.4em;
+  letter-spacing: 0.1rem;
+  border: none;
   padding: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
 }
